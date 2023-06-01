@@ -10,12 +10,12 @@ public class EnemyCollision : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemy")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
 
         if(collision.gameObject.tag == "Enemy2")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 }
