@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1556,12 +1556,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.5}
-      - {x: -0.5001857, y: 0.49998683}
-      - {x: -0.50314677, y: -0.5180517}
-      - {x: -0.5010076, y: -0.49994305}
-      - {x: 0.5009575, y: -0.5009983}
-      - {x: 0.50152516, y: 0.5009173}
+    - - {x: -0.09842487, y: 5.9170465}
+      - {x: -15.854463, y: 5.9170337}
+      - {x: -16.005062, y: -0.94949746}
+      - {x: -15.953708, y: -6.0608053}
+      - {x: 16.002869, y: -5.870106}
+      - {x: 15.965838, y: 2.7398362}
+      - {x: 15.905014, y: 5.9659023}
 --- !u!4 &780246998
 Transform:
   m_ObjectHideFlags: 0
@@ -1986,7 +1987,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.02, y: 9.92, z: -10.5}
+  m_LocalPosition: {x: -13.745486, y: 5.174938, z: -10.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2223,7 +2224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
-  m_BoundingShape2D: {fileID: 1025825051}
+  m_BoundingShape2D: {fileID: 780246997}
   m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!1 &1025825046
