@@ -23,11 +23,11 @@ public class RatMovement : MonoBehaviour
 
         if (transform.position.x <= leftMaximumRat)
         {
-            xDirectionRat = 0.8f;
+            xDirectionRat = 1.1f;
         }
         if (transform.position.x >= rightMaximumRat)
         {
-            xDirectionRat = -0.8f;
+            xDirectionRat = -1.1f;
         }
     }
 
